@@ -9205,6 +9205,12 @@
 		(uuid "df726fca-a7bb-4e3d-b05e-3113ac03f5a5")
 	)
 	(junction
+		(at 326.39 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dffa6bc7-69f7-4b42-896c-dbf374f4f3f2")
+	)
+	(junction
 		(at 201.93 -213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10261,6 +10267,16 @@
 			(type default)
 		)
 		(uuid "4da5690f-e022-4fbd-83cb-e40bf26c3511")
+	)
+	(wire
+		(pts
+			(xy 326.39 10.16) (xy 326.39 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da9a112-dc68-4616-b86f-0fab76772c33")
 	)
 	(wire
 		(pts
@@ -18180,6 +18196,84 @@
 			(project "WE MAKING IT TO ISEF WITH THIS ONE"
 				(path "/ab9c9e90-16c1-4fff-8322-fda1cac8bed0"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 326.39 10.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bef09632-2b99-4450-a3dc-680db0c762a2")
+		(property "Reference" "#PWR026"
+			(at 326.39 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 326.39 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 326.39 10.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5300ccd7-f37b-489f-addb-ba9b67f52953")
+		)
+		(instances
+			(project "WE MAKING IT TO ISEF WITH THIS ONE"
+				(path "/ab9c9e90-16c1-4fff-8322-fda1cac8bed0"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
