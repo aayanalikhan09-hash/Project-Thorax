@@ -8,6 +8,9 @@ Hello everyone!
 This is my magnum opus --- unfinished.
 I hope to finish it soon and ship it to a different YSWS for funding, but for now it is just a concept in software.
 
+<img width="1262" height="900" alt="image" src="https://github.com/user-attachments/assets/255ec715-889d-4b5d-98ec-e4029c475e98" />
+
+
 I will still explain it, however.
 
 This is meant to be a microplastic detection PCB that uses light spectroscopy to determine whether microplastics are present in water based on machine learning.
